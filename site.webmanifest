@@ -1,0 +1,26 @@
+{
+  "name": "Poliductos Victoria",
+  "short_name": "PoliductosV",
+  "description": "Líder en poliducto agrícola en Puebla y diversos estados.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0d1a0d",
+  "theme_color": "#d4a017",
+  "icons": [
+    {
+      "src": "/favicon-16x16.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}

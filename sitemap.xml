@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+  
+  <!-- ===== MAIN PAGE ===== -->
+  <url>
+    <loc>https://poliductosvictoria.com/</loc>
+    <lastmod>2026-06-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://poliductosvictoria.com/assets/images/og-image.jpg</image:loc>
+      <image:title>Poliductos Victoria - Líder en Poliducto Agrícola</image:title>
+      <image:caption>El mayor proveedor de poliducto agrícola en Puebla y diversos estados</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://poliductosvictoria.com/assets/images/main_logo-removebg.png</image:loc>
+      <image:title>Logo Poliductos Victoria</image:title>
+    </image:image>
+  </url>
+  
+  <!-- ===== PRODUCTOS SECTION ===== -->
+  <url>
+    <loc>https://poliductosvictoria.com/#productos</loc>
+    <lastmod>2026-06-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://poliductosvictoria.com/assets/images/4_productos.webp</image:loc>
+      <image:title>Productos Poliductos Victoria</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://poliductosvictoria.com/assets/images/7_productos_de_reciclados.webp</image:loc>
+      <image:title>Productos Plásticos Reciclados</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://poliductosvictoria.com/assets/images/medidas_poliducto.webp</image:loc>
+      <image:title>Medidas de Poliducto - C-40/C-80</image:title>
+    </image:image>
+  </url>
+  
+  <!-- ===== QUIENES SOMOS ===== -->
+  <url>
+    <loc>https://poliductosvictoria.com/#quienes-somos</loc>
+    <lastmod>2026-06-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- ===== CONTACTANOS ===== -->
+  <url>
+    <loc>https://poliductosvictoria.com/#contactanos</loc>
+    <lastmod>2026-06-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://poliductosvictoria.com/assets/images/whatsapp_inquiry_box.jpg</image:loc>
+      <image:title>Contacto por WhatsApp</image:title>
+    </image:image>
+  </url>
+  
+  <!-- ===== PRODUCTS (Individual - for richer search results) ===== -->
+  <url>
+    <loc>https://poliductosvictoria.com/#poliducto</loc>
+    <lastmod>2026-06-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://poliductosvictoria.com/#bolsas</loc>
+    <lastmod>2026-06-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://poliductosvictoria.com/#reciclados</loc>
+    <lastmod>2026-06-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+</urlset>
