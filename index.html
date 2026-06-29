@@ -20,7 +20,7 @@
   <!-- ===== CANONICAL ===== -->
   <link rel="canonical" href="https://pafoxworth123.github.io/PoliductosVictoria/" />
 
-  <!-- ===== FAVICON - Using absolute URLs (like the test) ===== -->
+  <!-- ===== FAVICON ===== -->
   <link rel="apple-touch-icon" sizes="180x180" href="https://pafoxworth123.github.io/PoliductosVictoria/apple-touch-icon.png" />
   <link rel="icon" type="image/png" sizes="32x32" href="https://pafoxworth123.github.io/PoliductosVictoria/favicon-32x32.png" />
   <link rel="icon" type="image/png" sizes="16x16" href="https://pafoxworth123.github.io/PoliductosVictoria/favicon-16x16.png" />
@@ -498,22 +498,35 @@
       font-weight: 700;
     }
 
-    .product-card .card-img-placeholder {
-      background: #1f331f;
-      border-radius: 14px;
-      padding: 0.6rem 1rem;
-      margin-top: 0.6rem;
-      font-size: 0.85rem;
-      color: #b8b09a;
-      border: 1px dashed #3a5a3a;
-      text-align: center;
-      font-weight: 600;
-      letter-spacing: 0.3px;
+    /* ===== PRODUCT IMAGE STYLES ===== */
+    .product-image {
+      width: 100%;
+      height: 160px;
+      object-fit: cover;
+      border-radius: 12px;
+      margin-bottom: 12px;
+      border: 1px solid #2a422a;
+      background: #0d1a0d;
     }
 
-    .product-card .card-img-placeholder i {
+    .product-image-placeholder {
+      width: 100%;
+      height: 160px;
+      background: #1f331f;
+      border-radius: 12px;
+      margin-bottom: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #8a8a7a;
+      font-size: 14px;
+      border: 1px dashed #3a5a3a;
+    }
+
+    .product-image-placeholder i {
       color: var(--gold);
-      margin-right: 6px;
+      font-size: 2rem;
+      margin-right: 8px;
     }
 
     .whatsapp-inline {
@@ -619,6 +632,9 @@
         bottom: 18px;
         right: 18px;
       }
+      .product-image {
+        height: 120px;
+      }
     }
 
     @media (max-width: 480px) {
@@ -631,6 +647,9 @@
       }
       .product-grid {
         grid-template-columns: 1fr;
+      }
+      .product-image {
+        height: 160px;
       }
     }
   </style>
@@ -711,6 +730,7 @@
 
         <!-- Card 1: Poliducto -->
         <article class="product-card">
+          <img src="https://pafoxworth123.github.io/PoliductosVictoria/assets/images/medidas_poliducto.webp" alt="Poliducto - Medidas C-40 y C-80" class="product-image" loading="lazy" />
           <h3><i class="fas fa-pipe"></i> Poliducto</h3>
           <ul>
             <li>2" C-40 / C-80</li>
@@ -726,6 +746,7 @@
 
         <!-- Card 2: Plásticos Reciclados -->
         <article class="product-card">
+          <img src="https://pafoxworth123.github.io/PoliductosVictoria/assets/images/7_productos_de_reciclados.webp" alt="Plásticos Reciclados - Fabricante Directo" class="product-image" loading="lazy" />
           <h3><i class="fas fa-recycle"></i> Plásticos Reciclados</h3>
           <ul>
             <li>Bolsa conductora de agua</li>
@@ -741,6 +762,7 @@
 
         <!-- Card 3: Bolsas Industriales -->
         <article class="product-card">
+          <img src="https://pafoxworth123.github.io/PoliductosVictoria/assets/images/bolsas_basura.webp" alt="Bolsas Industriales - Basura y Vivero" class="product-image" loading="lazy" />
           <h3><i class="fas fa-trash-alt"></i> Bolsas Industriales</h3>
           <ul>
             <li>Bolsa para basura 60×90</li>
@@ -756,6 +778,7 @@
 
         <!-- Card 4: Línea completa -->
         <article class="product-card">
+          <img src="https://pafoxworth123.github.io/PoliductosVictoria/assets/images/various_productos.webp" alt="Línea completa de productos agrícolas" class="product-image" loading="lazy" />
           <h3><i class="fas fa-th-list"></i> Línea completa</h3>
           <ul>
             <li>Poliducto de todas las medidas</li>
